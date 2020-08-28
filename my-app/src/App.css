@@ -1,3 +1,18 @@
+.grid {
+  border: black solid 3px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  background-image:
+      linear-gradient(#333 1px, transparent 1px),
+      linear-gradient(90deg, #333 1px, transparent 1px);
+}
+
+.point {
+ 
+  position: absolute;
+}
+
 body{
   margin:0 auto;
 width: 1000px;
@@ -68,4 +83,8 @@ form{
   padding: 40px;
   width: 80%;
   text-align: center;
+}
+.controls{
+  display: flex;
+  justify-content: center;
 }
