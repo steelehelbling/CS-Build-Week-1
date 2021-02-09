@@ -1,0 +1,90 @@
+.grid {
+  border: black solid 3px;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  background-image:
+      linear-gradient(#333 1px, transparent 1px),
+      linear-gradient(90deg, #333 1px, transparent 1px);
+}
+
+.point {
+ 
+  position: absolute;
+}
+
+body{
+  margin:0 auto;
+width: 1000px;
+
+}
+.main{
+
+display: flex;
+padding-top: 40px;
+}
+.left{
+width: 40%;
+
+
+}
+.right{
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+}
+.grid{
+padding: 20px;
+}
+.buttonflex{
+display: flex;
+justify-content: center;
+width: 100%;
+
+}
+button{
+
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+  color:black;
+  margin: 5%;
+}
+.midd{
+  display: flex;
+justify-content: center;
+
+padding-top:30px;
+padding-bottom:30px;
+
+}
+img{
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+}
+h1{
+  size: 2rem;
+  padding: 10px;
+  text-align: center;
+}
+.forms{
+
+  display: flex;
+  flex-direction: row;
+}
+form{
+    padding-right: 30px;
+}
+.moreright{
+  width: 30%;
+}
+.end{
+  padding: 40px;
+  width: 80%;
+  text-align: center;
+}
+.controls{
+  display: flex;
+  justify-content: center;
+}
